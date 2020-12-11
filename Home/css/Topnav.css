@@ -1,0 +1,42 @@
+#Nav{
+
+}
+
+#Branding {
+
+}
+
+#Topnav{
+    position: fixed;
+    vertical-align: middle;
+    background-color:rgb(37, 37, 37);
+    width:100%;
+    height: 30px;
+    z-index: 1;
+}
+
+.TopNavItem {
+    float:left;
+    padding-left:10px;
+    padding-right:10px;
+    min-height:30px;
+    font-size: 15px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+a{
+    text-decoration: none;   
+    color:white;
+}
+
+.TopNavItem:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+.TopNavItem:active{
+    background-color: rgb(87, 84, 84);
+}
